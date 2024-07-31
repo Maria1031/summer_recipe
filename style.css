@@ -1,0 +1,647 @@
+body,html{
+    
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    margin-top: -100px;
+    padding-top: 100px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+header{
+    /* font-weight: 700; */
+    position: absolute;
+
+    z-index: 3;
+    
+}
+
+header .container{
+    /* max-width: 1200px;
+    
+    width: 90%;
+    margin: 0 auto; */
+    margin: 15px 35px;
+}
+
+header .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.bold{
+    font-weight: 900;
+}
+
+header .logo{
+    font-size: 24px;
+   
+}
+.logo img{
+    width: 60px;
+    padding-top: 10px;
+    
+}
+
+
+
+/* .section1 .filter{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}  */
+
+.section1 .container{
+    text-align: center;  
+    position: relative;
+}
+.container .img{
+    display: flex;
+    height: 670px;
+    flex: 1;
+    
+}
+img{
+    /* width: 450px; */
+    width: 33.333%;
+   
+} 
+
+.summer .filter{
+    
+    position: absolute; 
+}
+
+.title{
+    position: absolute; 
+    top: -55px;
+    right: 225px; 
+    width: 900px;
+    height: 480px;
+    border-radius: 50%;
+    background-color: rgba(255, 230, 157, 0.86);
+    
+}
+
+
+.title h1{
+    font-size: 80px;
+    font-weight: 400;
+    padding-top: 95px;
+    color: #63CAF1;
+    font-family: "Merriweather", serif;
+    text-shadow: 0px 3px 4px #808080;
+    font-style: normal;
+    
+} 
+
+
+.section2{
+    height: 600px;
+}
+.section2 .container{
+    text-align: center;
+    padding-top: 150px;
+    position: relative;
+}
+.container .text10{
+    line-height: 30px;
+    font-size: 16px;
+
+}
+/*足跡*/
+.container .tonsoku{
+    position: absolute;
+    top: 420px;
+    right: 300px;
+    width: 30px;
+    transform: rotate(30deg);
+}
+.container .tonsoku1{
+    position: absolute;
+    top: 520px;
+    right: 350px;
+    width: 30px;
+    transform: rotate(10deg);
+}
+.container .tonsoku2{
+    position: absolute;
+    top: 490px;
+    right: 280px;
+    width: 30px;
+    transform: rotate(20deg);
+}
+.container .tonsoku3{
+    position: absolute;
+    top: 400px;
+    right: 230px;
+    width: 30px;
+    transform: rotate(40deg);
+}
+.container .tonsoku4{
+    position: absolute;
+    top: 330px;
+    right: 240px;
+    width: 30px;
+    transform: rotate(60deg);
+}
+.container .tonsoku5{
+    position: absolute;
+    top: 350px;
+    right: 160px;
+    width: 30px;
+    transform: rotate(80deg);
+}
+.container .tonsoku6{
+    position: absolute;
+    top: 280px;
+    right: 130px;
+    width: 30px;
+    transform: rotate(85deg);
+}
+.container .tonsoku7{
+    position: absolute;
+    top: 330px;
+    right: 70px;
+    width: 30px;
+    transform: rotate(85deg);
+}
+.container .tonsoku8{
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    width: 30px;
+    transform: rotate(85deg);
+}
+.container .tonsoku9{
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    width: 30px;
+    transform: rotate(75deg);
+}
+.container .tonsoku10{
+    position: absolute;
+    top: 210px;
+    left: 190px;
+    width: 30px;
+    transform: rotate(60deg);
+}
+.container .tonsoku11{
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    width: 30px;
+    transform: rotate(40deg);
+}
+.container .tonsoku12{
+    position: absolute;
+    top: 130px;
+    left: 280px;
+    width: 30px;
+    transform: rotate(25deg);
+}
+.container .tonsoku13{
+    position: absolute;
+    top: 60px;
+    left: 240px;
+    width: 30px;
+    transform: rotate(10deg);
+}
+.container .tonsoku14{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    width: 30px;
+    transform: rotate(5deg);
+}
+.container .tonsoku15{
+    position: absolute;
+    top: 260px;
+    right: 30px;
+    width: 30px;
+    transform: rotate(90deg);
+}
+.container .tonsoku16{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 30px;
+    transform: rotate(85deg);
+}
+/*無難*/
+/* .container .tonsoku{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 30px; 
+}
+.container .tonsoku1{
+    position: absolute;
+    top: 300px;
+    right: 350px;
+    width: 30px;
+}
+.container .tonsoku2{
+    position: absolute;
+    bottom: -70px;
+    left: 320px;
+    width: 30px;
+}
+.container .tonsoku3{
+    position: absolute;
+    top: 100px;
+    right: 120px;
+    width: 30px;
+}
+.container .tonsoku4{
+    position: absolute;
+    top: 70px;
+    left: 180px;
+    width: 30px;
+}
+.container .tonsoku5{
+    position: absolute;
+    top: 30px;
+    right: 350px;
+    width: 60px;
+    transform-origin: center bottom;
+    animation: yurayura 2s linear infinite;
+}
+.container .tonsoku6{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    width: 50px;
+    transform-origin: center bottom;
+    animation: yurayura 2s linear infinite;
+}
+.container .tonsoku7{
+    position: absolute;
+    bottom: -100px;
+    right: 150px;
+    width: 55px;
+    transform-origin: center bottom;
+    animation: yurayura 2s linear infinite;
+} 
+
+@keyframes yurayura{
+    0%,100%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+} */
+
+.container .text1-1{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.text1 .bold{
+    font-weight: bold;
+}
+
+
+.container .intro{
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+.intro .big{
+    font-size: 24px;
+}
+
+.section3 .wrap{
+    background-color: #6ddaf2;
+    height: 650px;
+}
+
+.wrap .container{
+    display: flex;
+    gap: 60px;
+    
+    
+    padding-top: 65px;
+    padding-left: 220px;
+    
+
+}
+.container .intro{
+    padding-top: 45px
+}
+.intrp-img img{
+    width: 650px;
+}
+
+
+.section4 {
+    padding-top: 150px;
+    
+}
+.section4 .circle{
+    width: 170px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f2cd5c;
+    margin-left: 32%;
+    text-align: center;/* ←文字を左右に中央揃え */
+    line-height: 80px;/* ←文字を上下に中央揃え */
+    transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+}
+.recipe_title{
+    display: flex;
+}
+.recipe_title h2{
+    text-align: center;
+}
+
+.recipe_title .cookmen{
+    width: 30px;
+    height: 38px;
+    padding-top: 15px;
+    margin-left: 32%;
+    padding-right: 15px;
+}
+.recipe_title .cookwomen{
+    width: 30px;
+    height: 38px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.section4 .container{
+    /* max-width: 1080px; */
+    width: 68%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+/*時計のイラスト*/
+.clock,.house{
+    display: flex;
+}
+.clock .dli-clock {
+    display: inline-block;
+    vertical-align: middle;
+    color: #333;
+    line-height: 1;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 50%;
+    box-sizing: content-box;
+    margin-top: 19px;
+    margin-right: 10px;
+}
+  
+.dli-clock::before, .dli-clock::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    background: currentColor;
+    border-radius: 0.1em;
+    transform: translate(-0.05em, 0.05em);
+}
+  
+.dli-clock::before {
+    width: 0.1em;
+    height: 0.4em;
+}
+  
+.dli-clock::after {
+    width: 0.35em;
+    height: 0.1em;
+}
+
+/*家のイラスト*/
+.house .dli-home {
+    display: inline-block;
+    vertical-align: middle;
+    color: #333;
+    line-height: 1;
+    position: relative;
+    width: 1em;
+    height: 0.75em;
+    border: 0.1em solid currentColor;
+    border-top: 0;
+    box-sizing: border-box;
+    margin-top: 23px;
+    margin-right: 10px;
+  }
+  
+  .dli-home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0.70711em;
+    height: 0.70711em;
+    border: 0.1em solid currentColor;
+    border-right: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
+    transform: translate(-50%, -46%) rotate(45deg) skew(-10deg, -10deg);
+  }
+  
+  .dli-home::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -0.1em;
+    width: 45%;
+    height: 75%;
+    background: #fff;
+    border: 0.1em solid currentColor;
+    border-bottom: 0;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+  }
+
+.section4 .row{
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 150px; */
+    display: flex;
+    gap: 10%;
+}
+
+.section4 .col{
+    width: 45%;
+    
+}
+.col .house{
+    padding-bottom: 30px;
+}
+.col .zairyo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.col .zairyo-2{
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+
+.text .cp_hr02 {
+	border-width: 1px 0 0 0;
+	border-style: dashed;
+	border-color: #ffb300;
+}
+
+.col img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.text{
+    padding-bottom: 30px;
+}
+
+
+.text1 h3{
+    margin-top: 50px;
+    
+    
+}
+.howtocook .text1{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 0 40px;
+    line-break: anywhere;
+    margin-bottom: 145px;
+}
+.howtocook .text1-1{
+    margin-top: 15px;
+    margin-bottom: 100px;
+    padding: 0 40px;
+    line-break: anywhere;
+    margin-bottom: 145px;
+}
+.soro{
+    display: flex;
+    border-bottom: 1px solid #63caf2;
+    
+}
+.soro1{
+    width: 5%;
+    padding: 16px 0;
+}
+.soro2{
+    width: 95%;
+    padding: 16px 0;
+
+}
+
+
+.container .recipe{
+    font-size: 20px;
+    padding: 1em;/*文字周りの余白*/
+    color: #494949;/*文字色*/
+    background: #fffaf4;/*背景色*/
+    border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
+    margin-right: 73%;
+}
+.container .recipe-1{
+    font-size: 20px;
+    padding: 1em;/*文字周りの余白*/
+    color: #494949;/*文字色*/
+    background: #fffaf4;/*背景色*/
+    border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
+    margin-right: 60%;
+}
+
+.section5{
+    background-color: #6ddaf2;
+    height: 300px;
+}
+.section5 .button{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding-top: 6%;
+}
+p.top {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+/* footer */
+.footer_main {
+    background-color: #f2c029;
+    /* background: #e5e5e5; */
+    text-align: center;
+    padding: 30px;
+}
+.footer_main a {
+    color: #000;
+    text-decoration: none;
+}
+.footer_main a:hover {
+    text-decoration: underline;
+}
+.footer_main .wrap{
+    padding-right: 70px;
+    padding-top: 50px;
+    
+}
+.footer_main .wrap .link {
+    margin: 0;
+    padding: 0 5;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+    
+}
+.footer_main .wrap li {
+    margin: 0;
+    padding: 0 80px;
+    color: #fff;
+}
+.link li a{
+    color: #fff;
+}
+.link .border-right{
+    border-right: 1px solid;
+    
+}
+.footer_main .copy {
+    margin-top: 60px;
+    /* padding-bottom: 30px; */
+    /* padding-top: 20px; */
+    /* margin-bottom: 0; */
+    color: #fff;
+    font-size: 14px;
+}
+ 
+  
